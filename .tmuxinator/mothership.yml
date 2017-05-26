@@ -1,0 +1,27 @@
+name: mothership
+root: ~/mothership/data-mothership
+
+pre_window: source venv/bin/activate
+
+windows:
+  - editor:
+      layout: even-horizontal
+      panes:
+        - vim
+        - vim
+  - server:
+      panes:
+        - server:
+          - source venv/bin/activate
+          - source setup-development.sh
+          - python manage.py runserver
+        - shell:
+          - source venv/bin/activate
+          - source setup-development.sh
+          - python manage.py shell
+  - production:
+      panes:
+        - db:
+          - heroku pg:psql --remote production
+        - logs:
+          - heroku logs -t --remote production
