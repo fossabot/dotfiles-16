@@ -12,5 +12,5 @@ Software on fresh OS:
 11. `brew install pip`
 12. `brew install rg`
 13. `brew install tig`
-14. git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-15. sh ~/.vim_runtime/install_awesome_vimrc.sh
+14. `git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime`
+15. `sh ~/.vim_runtime/install_awesome_vimrc.sh`
