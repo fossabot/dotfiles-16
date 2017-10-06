@@ -1,8 +1,8 @@
 Software on fresh OS:
-1. `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` # install brew
+1. `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 
 2. `brew install python`
 3. `brew install virtualenv`
-4. install chrome
+4. Applications: chrome, vlc
 5. `brew install postgres`
 6. `ssh-keygen -t rsa -b 4096 -C "{your email}"`  # create keygen and upload to github.
 7. `brew install tmux`
@@ -12,3 +12,5 @@ Software on fresh OS:
 11. `brew install pip`
 12. `brew install rg`
 13. `brew install tig`
+14. git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+15. sh ~/.vim_runtime/install_awesome_vimrc.sh
