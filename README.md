@@ -2,7 +2,7 @@ Software on fresh OS:
 1. `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 
 2. `brew install python`
 3. `brew install virtualenv`
-4. Applications: chrome, vlc
+4. Applications: chrome, vlc, omnifocus, Anki, Signal, Hyperdock, Irc client (LimeChat)
 5. `brew install postgres`
 6. `ssh-keygen -t rsa -b 4096 -C "{your email}"`  # create keygen and upload to github.
 7. `brew install tmux`
