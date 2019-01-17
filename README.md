@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdaljeetv%2Fdotfiles.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdaljeetv%2Fdotfiles?ref=badge_shield)
+
 Software on fresh OS:
 1. `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 
 2. `brew install python`
@@ -15,3 +17,7 @@ Software on fresh OS:
 14. `git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime`
 15. `sh ~/.vim_runtime/install_awesome_vimrc.sh`
 16. brew install irssi
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdaljeetv%2Fdotfiles.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdaljeetv%2Fdotfiles?ref=badge_large)
